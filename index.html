@@ -5,63 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tom's Jazz School</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&dispIay=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="./imagens/logo.svg" alt="Tom's Jazz School">
+        <nav class="mt-1 mx-auto">
+            <a href="#">Início</a>
+            <a href="#">Cursos</a>
+            <a href="#">Eventos</a>
+            <a href="#">Contato</a>
+        </nav>
+        <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <img src="./imagens/hero-img.svg" alt="Banda de Jazz tocando">
+            <div>
+                <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+                <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam asperiores illo cumque,
+                    obcaecati illum velit animi laboriosam explicabo. Quo consequuntur optio consequatur ipsa.
+                </p>
+                <a href="#" class="button">Comece agora</a>
+            </div>
+        </section>
+
+        <section class="courses-section">
+            <div class="cards">
+                <article>
+                    <img src="./imagens/piano.png" alt="Ícone de teclas de piano">
+                    <strong>Piano popular</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, neque.</p>
+                    <a href="#">
+                        <img src="./imagens/arrow-right.svg" alt="Ir para página de cursos">
+                    </a>
+                </article>
+                <article>
+                    <img src="./imagens/clef.png" alt="Ícone da clave de sol">
+                    <strong>Teoria musical</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, neque.</p>
+                    <a href="#">
+                        <img src="./imagens/arrow-right.svg" alt="Ir para página de cursos">
+                    </a>
+                </article>
+                <article>
+                    <img src="./imagens/sax.png" alt="Ícone de saxofone">
+                    <strong>Sax alto</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, neque.</p>
+                    <a href="#">
+                        <img src="./imagens/arrow-right.svg" alt="Ir para página de cursos">
+                    </a>
+                </article>
+                <article>
+                    <img src="./imagens/drums.png" alt="Ícone de bateria">
+                    <strong>Bateria</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, neque.</p>
+                    <a href="#">
+                        <img src="./imagens/arrow-right.svg" alt="Ir para página de cursos">
+                    </a>
+                </article>
+            </div>
+            
+            <h2>E <span class="text-primary">vários</span> outros!</h2>
+            <a href="#" class="button">Conhecer cursos</a>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="./imagens/logo.svg" alt="Tom's Jazz School">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quae explicabo, placeat rem alias expedita eos.</p>
+        </div>
         <nav>
             <a href="#">Início</a>
             <a href="#">Cursos</a>
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
-        <a href="#" class="button">Se inscreva</a>
-    </header>
-    <main>
-        <section>
-            <img src="./imagens/hero-img.svg" alt="Banda de Jazz tocando">
-            <div>
-                <h1>Crie algo <span>impactante</span> com música</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam asperiores illo cumque,
-                    obcaecati illum velit animi laboriosam explicabo. Quo consequuntur optio consequatur ipsa.
-                </p>
-                <a href="#" class="button">Comece agora</a>
-            </div>
-        </section>
-        <section>
-            <article>
-                <img src="./imagens/piano.png" alt="Ícone de teclas de piano">
-                <strong>Piano popular</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, neque.</p>
-                <a href="#">
-                    <img src="./imagens/arrow-right.svg" alt="Ir para página de cursos">
-                </a>
-            </article>
-            <article>
-                <img src="./imagens/clef.png" alt="Ícone da clave de sol">
-                <strong>Teoria musical</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, neque.</p>
-                <a href="#">
-                    <img src="./imagens/arrow-right.svg" alt="Ir para página de cursos">
-                </a>
-            </article>
-            <article>
-                <img src="./imagens/piano.png" alt="Ícone de teclas de piano">
-                <strong>Piano popular</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, neque.</p>
-                <a href="#">
-                    <img src="./imagens/arrow-right.svg" alt="Ir para página de cursos">
-                </a>
-            </article>
-            <article>
-                <img src="./imagens/piano.png" alt="Ícone de teclas de piano">
-                <strong>Piano popular</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, neque.</p>
-                <a href="#">
-                    <img src="./imagens/arrow-right.svg" alt="Ir para página de cursos">
-                </a>
-            </article>
-        </section>
-    </main>
+        <form action="">
+            <label for="email">Receba materiais gratuitos no seu email</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+        </form>
+    </footer>
 </body>
 </html>
